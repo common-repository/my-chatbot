@@ -1,0 +1,844 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: my-chatbot\n"
+"POT-Creation-Date: 2020-11-04 14:50+1100\n"
+"PO-Revision-Date: 2020-11-04 14:50+1100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/admin/admin-pages.php:24
+#: ../includes/admin/settings/register-settings.php:578
+#: ../includes/post-meta-box.php:13
+msgid "My Chatbot"
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:53
+msgid "My Chatbot Settings"
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:59
+msgid "General"
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:60
+msgid "Overlay"
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:98
+msgid "Dialogflow integration settings and chatbot conversation styles."
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:110
+msgid ""
+"Settings to overlay a chatbot on the bottom right of each page which can "
+"toggle up and down."
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:378
+msgid ""
+"How to create a key file. <a id=\"myc-how-to-create-key-file-btn\" href=\"#"
+"\">Click here »</a>"
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:384
+msgid ""
+"Login to <a href=\"https://console.cloud.google.com/\">Google Cloud "
+"Platform</a> and select your Dialogflow project."
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:387
+msgid "Navigate to the credentials section of the APIs & Services page."
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:390
+msgid "Click the create credentials button and select service account key."
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:393
+msgid "From the service account drop down, select new service account."
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:396
+msgid ""
+"Enter a name for the account, then select the \"DialogFlow API Client\" role."
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:399
+msgid ""
+"Leave the default key type, then click the create button and download the "
+"key file."
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:402
+msgid "Make sure the Dialogflow API has been enabled."
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:421
+msgid "Define key file content in wp-config.php"
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:433
+msgid ""
+"Copy the following snippet <strong>near the top</strong> of your wp-config."
+"php and replace <strong>&lt;Add key file JSON content here&gt;</strong>."
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:451
+msgid ""
+"I understand the risks but I'd like to store the key file's content in the "
+"database anyway (not recommended)"
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:463
+msgid ""
+"Storing your key file's content in the database is less secure, but if "
+"you're ok with that, go ahead and enter your key file's JSON data in the "
+"field below."
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:472
+msgid "Enter key file JSON data..."
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:506
+msgid "Upload"
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:511
+msgid "Clear"
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:536
+msgid "Box"
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:543
+msgid "Circle"
+msgstr ""
+
+#: ../includes/admin/settings/display-settings.php:547
+msgid "Add a chatbot avatar image. Image should be square."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:69
+msgid "Key File"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:79
+msgid "Input Text"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:86
+msgid "Enter input text."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:87
+msgid "Enter input text..."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:92
+msgid "Enable Welcome Event"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:99
+msgid ""
+"Check this box if you want to display the welcome fallback intent on page "
+"load."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:103
+msgid "Language"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:110
+msgid "Leave blank for current locale."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:113
+msgid "Brazilian Portuguese"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:114
+msgid "Chinese (Cantonese)"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:115
+msgid "Chinese (Simplified)"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:116
+msgid "Chinese (Traditional)"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:117
+msgid "English"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:118
+msgid "English - Autralian locale"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:119
+msgid "English - Canadian locale"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:120
+msgid "English - Great Britain locale"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:121
+msgid "English - Indian locale"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:122
+msgid "English - US locale"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:123
+msgid "Dutch"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:124
+msgid "French"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:125
+msgid "French - Canadian locale"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:126
+msgid "German"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:127
+msgid "Italian"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:128
+msgid "Japanese"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:129
+msgid "Korean"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:130
+msgid "Portuguese"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:131
+msgid "Russian"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:132
+msgid "Spanish"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:133
+msgid "Spanish - Latin America locale"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:134
+msgid "Spanish - Spain locale"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:135
+msgid "Ukranian"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:140
+msgid "Messaging Platform"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:150
+msgid "Default"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:154
+msgid "Google Assistant"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:158
+msgid "Facebook Messenger"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:162
+msgid "Slack"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:166
+msgid "Hangouts"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:170
+msgid "Telegram"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:174
+msgid "Line"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:178
+msgid ""
+"Assume appearance of a Dialogflow supported messaging platform. Note default "
+"responses do not support rich message content."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:182
+msgid "Show Time"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:189
+msgid ""
+"Check this box if you want to show the time underneath the conversation "
+"bubbles."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:193
+msgid "Keep Conversation History"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:200
+msgid "Persist past conversations in local browser storage."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:204
+msgid "Show Loading"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:211
+msgid ""
+"Check this box if you want to display loading dots until a response is "
+"returned."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:215
+msgid "Conversation Font Size"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:222
+msgid "%. Scale the conversation text. E.g. 90% = slightly smaller."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:232
+msgid "Loading Dots Color"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:239
+msgid "Choose a color for the loading dots."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:243
+msgid "Response Delay"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:250
+msgid "milliseconds. Add a delay between messages."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:259
+msgid "Request Background Color"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:266
+msgid "Choose a background color for the conversation request bubble."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:270
+msgid "Request Font Color"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:277
+msgid "Choose a font color for the conversation request text."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:281
+msgid "Response Background Color"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:288
+msgid "Choose a background color for the conversation response bubble."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:292
+msgid "Response Font Color"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:299
+msgid "Choose a font color for the conversation response text."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:303
+msgid "Non Current Opacity"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:310
+msgid "Set the background color opacity for non current conversation bubbles."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:320
+msgid "Request Bubble Alignment"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:330
+#: ../includes/admin/settings/register-settings.php:351
+msgid "Left"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:334
+#: ../includes/admin/settings/register-settings.php:355
+msgid "Right"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:341
+msgid "Response Bubble Alignment"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:362
+msgid "Enable Overlay"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:369
+msgid "Check this box if you want to enable an overlay of the chatbot."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:373
+msgid "Disable Mobiles"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:380
+msgid "Check this box if you do not want show the overlay on mobile devices."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:384
+msgid "Allowed Page Types"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:391
+msgid "Allow the overlay to be displayed on different types of page types."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:395
+msgid "Front"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:399
+msgid "Page"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:403
+msgid "Home"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:407
+msgid "Attachment"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:411
+msgid "Single"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:415
+msgid "Category"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:419
+msgid "Tag"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:423
+msgid "Taxonomy"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:427
+msgid "Archive"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:431
+msgid "Author"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:435
+msgid "Search"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:439
+msgid "Not Found"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:446
+msgid "Allowed Post Types"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:453
+msgid ""
+"Allow the overlay to be displayed on these post types. Note you can override "
+"this setting from the Edit post screen for specific posts."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:458
+msgid "Header Background Color"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:465
+msgid "Choose a background color for the verlay header."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:469
+msgid "Header Font Color"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:476
+msgid "Choose a font color for the overlay header text."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:480
+msgid "Default Open"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:487
+msgid "Check this box if you want to default the overlay to open on page load."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:491
+msgid "Header Text"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:498
+msgid "Enter overlay header text."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:499
+msgid "Enter overlay header text..."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:503
+msgid "Powered By Text"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:510
+msgid ""
+"Enter overlay powered by text. If empty, the powered by bar will not be "
+"displayed."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:511
+msgid "Enter powered by text..."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:515
+msgid "Disable CSS Styles"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:522
+msgid ""
+"Check this box if you want to disable loading the plugin default CSS styles."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:545
+msgid "Ask something..."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:577
+msgid "Powered by <a href=\"#\">Replace Me</a>"
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:631
+msgid "Response delay must be numeric."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:633
+msgid "Response delay cannot be less than 0 or greater than 5000."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:643
+msgid "Non current opacity must be numeric."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:645
+msgid "Non current opacity cannot be less than 0 or greater than 1."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:649
+msgid "Font size percent must be numeric."
+msgstr ""
+
+#: ../includes/admin/settings/register-settings.php:651
+msgid "Font size percent cannot be less than 50 or greater than 150."
+msgstr ""
+
+#: ../includes/admin/welcome.php:52 ../includes/admin/welcome.php:53
+msgid "My Chatbot Changelog"
+msgstr ""
+
+#: ../includes/admin/welcome.php:61 ../includes/admin/welcome.php:62
+msgid "Getting started with My Chatbot"
+msgstr ""
+
+#: ../includes/admin/welcome.php:121
+#, php-format
+msgid "Welcome to My Chatbot v%s"
+msgstr ""
+
+#: ../includes/admin/welcome.php:123
+msgid "Chatbot for WordPress powered by Dialogflow."
+msgstr ""
+
+#: ../includes/admin/welcome.php:141
+msgid "Getting Started"
+msgstr ""
+
+#: ../includes/admin/welcome.php:144
+msgid "Changelog"
+msgstr ""
+
+#: ../includes/admin/welcome.php:198
+msgid "#1 Chatbot for WordPress"
+msgstr ""
+
+#: ../includes/admin/welcome.php:199
+msgid ""
+"Create your own branded chatbot for your WordPress website, powered by "
+"Google Dialogflow."
+msgstr ""
+
+#: ../includes/admin/welcome.php:200
+msgid ""
+"To get started, you will need to create a Dialogflow agent and configure the "
+"plugin to use a Google service account key file for integration. "
+msgstr ""
+
+#: ../includes/admin/welcome.php:201
+msgid ""
+"<a href=\"https://mychatbot.xyz\">Visit our website</a> for documentation on "
+"how to get started."
+msgstr ""
+
+#: ../includes/admin/welcome.php:206
+msgid "Go to Options &rarr;"
+msgstr ""
+
+#: ../includes/admin/welcome.php:213
+msgid "Key Features"
+msgstr ""
+
+#: ../includes/admin/welcome.php:218
+msgid "Conversation History"
+msgstr ""
+
+#: ../includes/admin/welcome.php:219
+msgid ""
+"Save to local storage. Persist across pages. Allow visitors to clear history."
+msgstr ""
+
+#: ../includes/admin/welcome.php:221
+msgid "Rich Message Responses"
+msgstr ""
+
+#: ../includes/admin/welcome.php:222
+msgid ""
+"Quick Replies, Cards and Images. Add oEmbed codes (e.g. Youtube video) and "
+"hyperlinks in text responses."
+msgstr ""
+
+#: ../includes/admin/welcome.php:224 ../includes/post-meta-box.php:35
+msgid "Chatbot Overlay"
+msgstr ""
+
+#: ../includes/admin/welcome.php:225
+msgid ""
+"Add a chatbot overlay in the bottom right corner which toggles up or down."
+msgstr ""
+
+#: ../includes/admin/welcome.php:227
+msgid "Welcome Intent"
+msgstr ""
+
+#: ../includes/admin/welcome.php:228
+msgid "Greet your users with a welcome message when they open the chatbot."
+msgstr ""
+
+#: ../includes/admin/welcome.php:230
+msgid "Custom Style Options"
+msgstr ""
+
+#: ../includes/admin/welcome.php:231
+msgid ""
+"Settings with color pickers for backgrounds and fonts and opacity for old "
+"conversation bubbles."
+msgstr ""
+
+#: ../includes/admin/welcome.php:237
+msgid "Response Message Delays"
+msgstr ""
+
+#: ../includes/admin/welcome.php:238
+msgid "Optionally add a delay before displaying response messages."
+msgstr ""
+
+#: ../includes/admin/welcome.php:240
+msgid "Custom Branding"
+msgstr ""
+
+#: ../includes/admin/welcome.php:241
+msgid "Custom text for heading, powered by and input placeholder."
+msgstr ""
+
+#: ../includes/admin/welcome.php:243
+msgid "Mobile Support"
+msgstr ""
+
+#: ../includes/admin/welcome.php:244
+msgid ""
+"Displays fine on mobile devices. Optionally disable chatbot overlay on "
+"mobile devices."
+msgstr ""
+
+#: ../includes/admin/welcome.php:246
+msgid "Display Control"
+msgstr ""
+
+#: ../includes/admin/welcome.php:247
+msgid ""
+"Choose which page types (e.g. home, single, search etc...) post types (e.g. "
+"post & page) or specific posts where the overlay can be shown."
+msgstr ""
+
+#: ../includes/admin/welcome.php:249
+msgid "Message Alignment"
+msgstr ""
+
+#: ../includes/admin/welcome.php:250
+msgid ""
+"Options to change request and response bubbles to be aligned either left or "
+"right."
+msgstr ""
+
+#: ../includes/admin/welcome.php:256
+msgid "Text Size"
+msgstr ""
+
+#: ../includes/admin/welcome.php:257
+msgid ""
+"Visitors can click an icon to increase or decrease the chatbot text size."
+msgstr ""
+
+#: ../includes/admin/welcome.php:259
+msgid "Overlay State"
+msgstr ""
+
+#: ../includes/admin/welcome.php:260
+msgid "Default open option. Remember open state when navigating website."
+msgstr ""
+
+#: ../includes/admin/welcome.php:262
+msgid "Shortcode & Widget"
+msgstr ""
+
+#: ../includes/admin/welcome.php:263
+msgid ""
+"Add chatbot in your post content using the [my_chatbot] shortcode. Add a "
+"chatbot widget to your page layouts."
+msgstr ""
+
+#: ../includes/admin/welcome.php:265
+msgid "Secure"
+msgstr ""
+
+#: ../includes/admin/welcome.php:266
+msgid ""
+"No credentials exposed in the browser. Google API authentication is server-"
+"side using OAuth 2."
+msgstr ""
+
+#: ../includes/admin/welcome.php:268
+msgid "Well Built"
+msgstr ""
+
+#: ../includes/admin/welcome.php:269
+msgid ""
+"Developer friendly. In-built template system. 60+ stargazers on Github. REST "
+"API. Lightweight."
+msgstr ""
+
+#: ../includes/admin/welcome.php:292
+msgid "No valid changelog was found."
+msgstr ""
+
+#: ../includes/admin/welcome.php:329
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: ../includes/post-meta-box.php:39
+msgid "Use global settings"
+msgstr ""
+
+#: ../includes/post-meta-box.php:40
+msgid "Enable"
+msgstr ""
+
+#: ../includes/post-meta-box.php:41
+msgid "Disable"
+msgstr ""
+
+#: ../includes/post-meta-box.php:44
+msgid ""
+"Do you want to enable or disable the chatbot overlay specifically for this "
+"post?"
+msgstr ""
+
+#: ../includes/scripts.php:51
+msgid "An internal error occured"
+msgstr ""
+
+#: ../includes/scripts.php:52
+msgid "I'm sorry I do not understand."
+msgstr ""
+
+#: ../includes/templates/chatbot-overlay-toggle.php:4
+msgid "Open"
+msgstr ""
+
+#: ../includes/templates/chatbot-overlay-toggle.php:5
+msgid "Close"
+msgstr ""
+
+#: ../includes/templates/chatbot-overlay-toggle.php:18
+msgid "Change font size"
+msgstr ""
+
+#: ../includes/templates/chatbot-overlay-toggle.php:19
+msgid "Clear conversation history"
+msgstr ""
+
+#: ../includes/widgets.php:30 ../includes/widgets.php:52
+#: ../includes/widgets.php:96
+msgid "Chatbot"
+msgstr ""
+
+#: ../includes/widgets.php:33
+msgid "Adds a chatbot powered by Dialogflow."
+msgstr ""
+
+#: ../includes/widgets.php:105
+msgid "Title"
+msgstr ""
+
+#: ../includes/widgets.php:109
+msgid "Header"
+msgstr ""
+
+#: ../my-chatbot.php:168 ../my-chatbot.php:181
+msgid "Cheatin&#8217; huh?"
+msgstr ""
